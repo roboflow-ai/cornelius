@@ -8,6 +8,8 @@
  * Date: 2013-06-04
  */
 
+ require(__dirname + "/cornelius.css");
+
 ;(function(globals) {
     var corneliusDefaults = {
         monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July',
@@ -296,7 +298,6 @@
         };
     }
 
-    // show it to the world!!
-    globals.Cornelius = Cornelius;
+    module.exports = Cornelius;
 
 })(window);
