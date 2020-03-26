@@ -1,5 +1,5 @@
 {
-  "name": "cornelius",
+  "name": "@roboflow/cornelius",
   "version": "0.1.0",
   "description": "A simple Cohort Visualization library",
   "main": "index.js",
